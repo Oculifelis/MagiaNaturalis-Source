@@ -1,0 +1,51 @@
+{
+  "category": "arcananaturae:arcananaturae",
+  "name": "research.arcananaturae.sickle_of_abundance.title",
+  "parents": [
+    "arcananaturae:sickles",
+    "thaumaturge:infusion"
+  ],
+  "column": -1,
+  "row": 4,
+  "icons": [
+    "arcananaturae:elemental_sickle"
+  ],
+  "stages": [
+    {
+      "text": "research.arcananaturae.sickle_of_abundance.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.arcananaturae.sickle_of_abundance.stage_1",
+      "recipes": [
+        "arcananaturae:infusion/elemental_sickle"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 3
+    }
+  ],
+  "complexity": 2
+}

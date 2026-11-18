@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "arcananaturae:mutation_stone",
+    "minecraft:red_wool"
+  ],
+  "result": {
+    "id": "minecraft:orange_wool",
+    "count": 1
+  }
+}

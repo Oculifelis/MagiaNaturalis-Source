@@ -1,0 +1,35 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 6
+    }
+  ],
+  "catalyst": "thaumaturge:quicksilver",
+  "components": [
+    "minecraft:glowstone_dust",
+    "thaumaturge:amber_block",
+    "minecraft:glowstone_dust",
+    "thaumaturge:amber_block"
+  ],
+  "instability": 2,
+  "research": {
+    "entry": "arcananaturae:quicksilver_stone"
+  },
+  "result": {
+    "id": "arcananaturae:quicksilver_stone"
+  }
+}

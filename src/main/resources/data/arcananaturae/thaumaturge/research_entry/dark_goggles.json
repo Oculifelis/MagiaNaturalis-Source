@@ -1,0 +1,56 @@
+{
+  "category": "arcananaturae:arcananaturae",
+  "name": "research.arcananaturae.dark_goggles.title",
+  "parents": [
+    "thaumaturge:base_artifice",
+    "arcananaturae:spectacles"
+  ],
+  "column": -7,
+  "row": 2,
+  "icons": [
+    "arcananaturae:dark_crystal_goggles"
+  ],
+  "stages": [
+    {
+      "text": "research.arcananaturae.dark_goggles.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        }
+      ],
+      "warp": 1
+    },
+    {
+      "text": "research.arcananaturae.dark_goggles.stage_1",
+      "recipes": [
+        "arcananaturae:infusion/dark_crystal_goggles"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 2
+}

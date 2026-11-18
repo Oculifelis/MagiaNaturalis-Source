@@ -1,0 +1,55 @@
+{
+  "category": "arcananaturae:arcananaturae",
+  "name": "research.arcananaturae.prison_jar.title",
+  "parents": [
+    "thaumaturge:infusion",
+    "arcananaturae:intro"
+  ],
+  "column": -1,
+  "row": 6,
+  "icons": [
+    "arcananaturae:prison_jar"
+  ],
+  "stages": [
+    {
+      "text": "research.arcananaturae.prison_jar.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.arcananaturae.prison_jar.stage_1",
+      "recipes": [
+        "arcananaturae:infusion/prison_jar"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:vinculum",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 3
+    }
+  ],
+  "complexity": 3
+}

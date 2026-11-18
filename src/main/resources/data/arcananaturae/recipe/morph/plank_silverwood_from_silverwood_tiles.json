@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "arcananaturae:mutation_stone",
+    "arcananaturae:silverwood_tiles"
+  ],
+  "result": {
+    "id": "thaumaturge:plank_silverwood",
+    "count": 1
+  }
+}

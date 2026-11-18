@@ -1,0 +1,51 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 16
+    }
+  ],
+  "catalyst": "thaumaturge:goggles_revealing",
+  "components": [
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:perditio"
+        }
+      }
+    },
+    "minecraft:spider_eye",
+    "minecraft:iron_ingot",
+    "thaumaturge:brain",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:perditio"
+        }
+      }
+    },
+    "minecraft:spider_eye",
+    "minecraft:iron_ingot",
+    "minecraft:iron_ingot"
+  ],
+  "instability": 3,
+  "research": {
+    "entry": "arcananaturae:dark_goggles"
+  },
+  "result": {
+    "id": "arcananaturae:dark_crystal_goggles"
+  }
+}

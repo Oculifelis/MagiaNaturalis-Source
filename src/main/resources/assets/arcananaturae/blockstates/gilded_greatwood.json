@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": {
+      "type": "arcananaturae:connected",
+      "connects_to": "#arcananaturae:connects/gilded_greatwood",
+      "textures": {
+        "all": "arcananaturae:block/gilded_greatwood",
+        "horizontal": "arcananaturae:block/gilded_greatwood_ctm_horizontal",
+        "vertical": "arcananaturae:block/gilded_greatwood_ctm_vertical",
+        "corners": "arcananaturae:block/gilded_greatwood_ctm_corners",
+        "inner": "thaumaturge:block/plank_greatwood"
+      }
+    }
+  }
+}

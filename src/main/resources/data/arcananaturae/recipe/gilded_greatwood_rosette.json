@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "W": "thaumaturge:plank_greatwood",
+    "N": "minecraft:gold_nugget",
+    "I": "minecraft:gold_ingot"
+  },
+  "pattern": [
+    "NWN",
+    "WIW",
+    "NWN"
+  ],
+  "result": {
+    "id": "arcananaturae:gilded_greatwood_rosette",
+    "count": 4
+  }
+}

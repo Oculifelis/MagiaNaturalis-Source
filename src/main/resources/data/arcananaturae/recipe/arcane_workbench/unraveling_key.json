@@ -1,0 +1,47 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 2
+    }
+  ],
+  "key": {
+    "I": "#c:ingots/thaumium",
+    "N": "#c:nuggets/thaumium",
+    "X": "minecraft:iron_nugget"
+  },
+  "pattern": [
+    "NXI",
+    "N  "
+  ],
+  "research": {
+    "entry": "arcananaturae:arcane_keys",
+    "stage": 1
+  },
+  "result": {
+    "id": "arcananaturae:unraveling_key",
+    "count": 1
+  },
+  "vis": 10
+}

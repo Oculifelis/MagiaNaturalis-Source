@@ -1,0 +1,51 @@
+{
+  "category": "arcananaturae:arcananaturae",
+  "name": "research.arcananaturae.research_log.title",
+  "parents": [
+    "arcananaturae:intro",
+    "thaumaturge:deconstructor"
+  ],
+  "column": -1,
+  "row": -2,
+  "icons": [
+    "arcananaturae:research_log"
+  ],
+  "stages": [
+    {
+      "text": "research.arcananaturae.research_log.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:basics",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:basics",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.arcananaturae.research_log.stage_1",
+      "recipes": [
+        "arcananaturae:arcane_workbench/research_log"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 3
+    }
+  ],
+  "complexity": 1
+}

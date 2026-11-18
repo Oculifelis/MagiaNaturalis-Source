@@ -1,0 +1,51 @@
+{
+  "category": "arcananaturae:arcananaturae",
+  "name": "research.arcananaturae.quicksilver_stone.title",
+  "parents": [
+    "arcananaturae:mutation_stone",
+    "thaumaturge:infusion"
+  ],
+  "column": 3,
+  "row": 4,
+  "icons": [
+    "arcananaturae:quicksilver_stone"
+  ],
+  "stages": [
+    {
+      "text": "research.arcananaturae.quicksilver_stone.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.arcananaturae.quicksilver_stone.stage_1",
+      "recipes": [
+        "arcananaturae:infusion/quicksilver_stone"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 2
+    }
+  ],
+  "complexity": 2
+}

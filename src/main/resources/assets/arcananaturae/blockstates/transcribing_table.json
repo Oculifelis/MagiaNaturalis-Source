@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arcananaturae:block/transcribing_table"
+    },
+    "facing=east": {
+      "model": "arcananaturae:block/transcribing_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arcananaturae:block/transcribing_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arcananaturae:block/transcribing_table",
+      "y": 270
+    }
+  }
+}

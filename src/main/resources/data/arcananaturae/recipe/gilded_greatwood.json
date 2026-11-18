@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "W": "thaumaturge:plank_greatwood",
+    "N": "minecraft:gold_nugget"
+  },
+  "pattern": [
+    "NWN",
+    "WNW",
+    "NWN"
+  ],
+  "result": {
+    "id": "arcananaturae:gilded_greatwood",
+    "count": 4
+  }
+}

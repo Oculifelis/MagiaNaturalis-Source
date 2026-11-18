@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": "#c:ingots/void_metal",
+    "S": "#c:rods/wooden"
+  },
+  "pattern": [
+    " I ",
+    "  I",
+    "SI "
+  ],
+  "result": {
+    "id": "arcananaturae:void_sickle",
+    "count": 1
+  }
+}

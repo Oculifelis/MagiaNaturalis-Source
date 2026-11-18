@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "arcananaturae:mutation_stone",
+    "arcananaturae:greatwood_panel"
+  ],
+  "result": {
+    "id": "arcananaturae:carved_greatwood",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "aspect": "thaumaturge:fabrico",
+  "behavior": {
+    "type": "arcananaturae:construct"
+  },
+  "color": 8747923,
+  "complexity": 4,
+  "icon": "arcananaturae:textures/foci/construct.png",
+  "research": {
+    "entry": "arcananaturae:construction_focus"
+  },
+  "sound": "minecraft:block.stone.place",
+  "settings": [
+    {
+      "key": "radius",
+      "min": 0,
+      "max": 2,
+      "default": 0,
+      "complexity": 4.0
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "category": "arcananaturae:arcananaturae",
+  "name": "research.arcananaturae.geo_occultism.title",
+  "parents": [
+    "arcananaturae:mutation_stone",
+    "thaumaturge:infusion"
+  ],
+  "column": 6,
+  "row": 0,
+  "icons": [
+    "arcananaturae:geo_pylon"
+  ],
+  "stages": [
+    {
+      "text": "research.arcananaturae.geo_occultism.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.arcananaturae.geo_occultism.stage_1",
+      "recipes": [
+        "arcananaturae:infusion/geo_pylon",
+        "arcananaturae:arcane_workbench/biome_sampler"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 2
+    }
+  ],
+  "complexity": 3
+}

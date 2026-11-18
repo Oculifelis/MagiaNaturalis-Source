@@ -1,0 +1,66 @@
+{
+  "category": "arcananaturae:arcananaturae",
+  "name": "research.arcananaturae.colour_conversion.title",
+  "parents": [
+    "arcananaturae:mutation_stone"
+  ],
+  "column": 4,
+  "row": 2,
+  "icons": [
+    "minecraft:magenta_wool"
+  ],
+  "stages": [
+    {
+      "text": "research.arcananaturae.colour_conversion.stage_0",
+      "recipes": [
+        "arcananaturae:morph/black_wool_from_white",
+        "arcananaturae:morph/red_wool_from_orange",
+        "arcananaturae:morph/green_wool_from_magenta",
+        "arcananaturae:morph/brown_wool_from_light_blue",
+        "arcananaturae:morph/blue_wool_from_yellow",
+        "arcananaturae:morph/purple_wool_from_lime",
+        "arcananaturae:morph/cyan_wool_from_pink",
+        "arcananaturae:morph/light_gray_wool_from_gray",
+        "arcananaturae:morph/gray_wool_from_light_gray",
+        "arcananaturae:morph/pink_wool_from_cyan",
+        "arcananaturae:morph/lime_wool_from_purple",
+        "arcananaturae:morph/yellow_wool_from_blue",
+        "arcananaturae:morph/light_blue_wool_from_brown",
+        "arcananaturae:morph/magenta_wool_from_green",
+        "arcananaturae:morph/orange_wool_from_red",
+        "arcananaturae:morph/white_wool_from_black",
+        "arcananaturae:morph/black_terracotta_from_white",
+        "arcananaturae:morph/red_terracotta_from_orange",
+        "arcananaturae:morph/green_terracotta_from_magenta",
+        "arcananaturae:morph/brown_terracotta_from_light_blue",
+        "arcananaturae:morph/blue_terracotta_from_yellow",
+        "arcananaturae:morph/purple_terracotta_from_lime",
+        "arcananaturae:morph/cyan_terracotta_from_pink",
+        "arcananaturae:morph/light_gray_terracotta_from_gray",
+        "arcananaturae:morph/gray_terracotta_from_light_gray",
+        "arcananaturae:morph/pink_terracotta_from_cyan",
+        "arcananaturae:morph/lime_terracotta_from_purple",
+        "arcananaturae:morph/yellow_terracotta_from_blue",
+        "arcananaturae:morph/light_blue_terracotta_from_brown",
+        "arcananaturae:morph/magenta_terracotta_from_green",
+        "arcananaturae:morph/orange_terracotta_from_red",
+        "arcananaturae:morph/white_terracotta_from_black"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 2
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "round",
+    "hidden"
+  ]
+}

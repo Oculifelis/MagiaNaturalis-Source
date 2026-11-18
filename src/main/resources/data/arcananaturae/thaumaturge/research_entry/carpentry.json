@@ -1,0 +1,48 @@
+{
+  "category": "arcananaturae:arcananaturae",
+  "name": "research.arcananaturae.carpentry.title",
+  "parents": [
+    "arcananaturae:intro"
+  ],
+  "column": 0,
+  "row": -2,
+  "icons": [
+    "arcananaturae:carved_greatwood"
+  ],
+  "stages": [
+    {
+      "text": "research.arcananaturae.carpentry.stage_0",
+      "recipes": [
+        "arcananaturae:carved_greatwood",
+        "arcananaturae:silverwood_panel",
+        "arcananaturae:gold_trimmed_greatwood",
+        "arcananaturae:gilded_greatwood",
+        "arcananaturae:gilded_greatwood_rosette",
+        "arcananaturae:morph/greatwood_panel_from_plank_greatwood",
+        "arcananaturae:morph/carved_greatwood_from_greatwood_panel",
+        "arcananaturae:morph/plank_greatwood_from_carved_greatwood",
+        "arcananaturae:morph/silverwood_panel_from_plank_silverwood",
+        "arcananaturae:morph/silverwood_tiles_from_silverwood_panel",
+        "arcananaturae:morph/plank_silverwood_from_silverwood_tiles"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 2
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "round"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.arcananaturae.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "EntityInvisibleMixin",
+    "WindowNoFocusMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

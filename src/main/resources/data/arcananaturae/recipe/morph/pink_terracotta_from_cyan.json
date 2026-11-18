@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "arcananaturae:mutation_stone",
+    "minecraft:cyan_terracotta"
+  ],
+  "result": {
+    "id": "minecraft:pink_terracotta",
+    "count": 1
+  }
+}

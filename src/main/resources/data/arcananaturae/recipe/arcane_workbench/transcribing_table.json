@@ -1,0 +1,102 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 30
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 30
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 30
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 30
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 30
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 30
+    }
+  ],
+  "key": {
+    "A": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:aer"
+        }
+      }
+    },
+    "I": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:ignis"
+        }
+      }
+    },
+    "T": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:aqua"
+        }
+      }
+    },
+    "W": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:terra"
+        }
+      }
+    },
+    "O": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:ordo"
+        }
+      }
+    },
+    "E": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:perditio"
+        }
+      }
+    },
+    "S": "thaumaturge:scribing_tools",
+    "D": "thaumaturge:deconstruction_table",
+    "B": "thaumaturge:stone_arcane_brick"
+  },
+  "pattern": [
+    "ASI",
+    "TDW",
+    "OBE"
+  ],
+  "research": {
+    "entry": "arcananaturae:transcribing_table",
+    "stage": 1
+  },
+  "result": {
+    "id": "arcananaturae:transcribing_table",
+    "count": 1
+  },
+  "vis": 60
+}

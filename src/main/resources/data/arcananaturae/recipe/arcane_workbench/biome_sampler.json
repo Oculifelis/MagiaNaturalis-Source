@@ -1,0 +1,49 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 2
+    }
+  ],
+  "key": {
+    "L": "minecraft:string",
+    "T": "thaumaturge:thaumometer",
+    "B": "minecraft:book",
+    "S": "thaumaturge:scribing_tools"
+  },
+  "pattern": [
+    " L ",
+    "TBS",
+    " L "
+  ],
+  "research": {
+    "entry": "arcananaturae:geo_occultism",
+    "stage": 1
+  },
+  "result": {
+    "id": "arcananaturae:biome_sampler",
+    "count": 1
+  },
+  "vis": 25
+}

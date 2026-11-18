@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "arcananaturae:mutation_stone",
+    "thaumaturge:plank_greatwood"
+  ],
+  "result": {
+    "id": "arcananaturae:greatwood_panel",
+    "count": 1
+  }
+}

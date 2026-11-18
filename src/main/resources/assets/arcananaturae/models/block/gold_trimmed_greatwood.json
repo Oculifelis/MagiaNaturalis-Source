@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "arcananaturae:block/gold_trimmed_greatwood",
+    "end": "arcananaturae:block/greatwood_panel"
+  }
+}

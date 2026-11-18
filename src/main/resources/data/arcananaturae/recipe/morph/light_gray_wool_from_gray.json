@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "arcananaturae:mutation_stone",
+    "minecraft:gray_wool"
+  ],
+  "result": {
+    "id": "minecraft:light_gray_wool",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="Elenterius (TrinaryBrain, original Magia Naturalis), Oculifelis (port to Thaumaturge)"
+credits="Original mod and code by Elenterius (MIT). Textures are redrawn for this port; the originals are All Rights Reserved and not used. Thaumaturge by Leclowndu93150 and contributors. Sickle textures recoloured from Silent Gear by SilentChaos512 (MIT, see licenses/silentgear-LICENSE.txt). Quicksilver Stone recoloured from artifact_dripping_orb_2 in unused-textures by Malcolm C. Riley (CC BY 4.0, see licenses/malcolm_riley-CC-BY-4.0.txt)."
+description='''
+A port of Magia Naturalis (Thaumcraft 4 addon, v0.5.0) to Thaumaturge on NeoForge 26.1.2, with its known bugs fixed.
+Sickles, the Phenomorphous and Quicksilver Stones, carved woods, revealing glasses, arcane chests and thaumium keys, and more.
+'''
+
+[[mixins]]
+config="${mod_id}.mixins.json"
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[26.1.2.71,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="thaumaturge"
+    type="required"
+    versionRange="${thaumaturge_version_range}"
+    ordering="AFTER"
+    side="BOTH"

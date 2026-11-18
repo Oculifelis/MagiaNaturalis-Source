@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": {
+      "type": "arcananaturae:connected",
+      "connects_to": "#arcananaturae:connects/gilded_greatwood",
+      "textures": {
+        "all": "arcananaturae:block/gilded_greatwood_rosette",
+        "horizontal": "arcananaturae:block/gilded_greatwood_rosette_ctm_horizontal",
+        "vertical": "arcananaturae:block/gilded_greatwood_rosette_ctm_vertical",
+        "corners": "arcananaturae:block/gilded_greatwood_rosette_ctm_corners",
+        "inner": "arcananaturae:block/gilded_greatwood_rosette_ctm_inner"
+      }
+    }
+  }
+}

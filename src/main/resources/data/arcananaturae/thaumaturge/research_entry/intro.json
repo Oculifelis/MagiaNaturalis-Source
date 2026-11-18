@@ -1,0 +1,36 @@
+{
+  "category": "arcananaturae:arcananaturae",
+  "name": "research.arcananaturae.intro.title",
+  "parents": [
+    "thaumaturge:unlock_alchemy"
+  ],
+  "column": 0,
+  "row": 0,
+  "icons": [
+    "arcananaturae:textures/misc/category_icon.png"
+  ],
+  "stages": [
+    {
+      "text": "research.arcananaturae.intro.stage_0"
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 2
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "round",
+    "hidden"
+  ]
+}

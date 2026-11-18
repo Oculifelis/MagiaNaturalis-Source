@@ -1,0 +1,55 @@
+{
+  "category": "arcananaturae:arcananaturae",
+  "name": "research.arcananaturae.evil_trunk.title",
+  "parents": [
+    "arcananaturae:arcane_chest",
+    "thaumaturge:infusion"
+  ],
+  "column": -5,
+  "row": -5,
+  "icons": [
+    "arcananaturae:corrupted_trunk"
+  ],
+  "stages": [
+    {
+      "text": "research.arcananaturae.evil_trunk.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ],
+      "warp": 1
+    },
+    {
+      "text": "research.arcananaturae.evil_trunk.stage_1",
+      "recipes": [
+        "arcananaturae:infusion/corrupted_trunk",
+        "arcananaturae:infusion/sinister_trunk",
+        "arcananaturae:infusion/demonic_trunk",
+        "arcananaturae:infusion/tainted_trunk"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:spiritus",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:bestia",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:vitium",
+      "amount": 3
+    }
+  ],
+  "complexity": 2
+}

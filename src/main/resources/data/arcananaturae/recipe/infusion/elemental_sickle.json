@@ -1,0 +1,53 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 8
+    }
+  ],
+  "catalyst": "arcananaturae:thaumium_sickle",
+  "components": [
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:ordo"
+        }
+      }
+    },
+    "thaumaturge:ingot_thaumium",
+    "minecraft:wheat_seeds",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:perditio"
+        }
+      }
+    },
+    "thaumaturge:ingot_thaumium",
+    "minecraft:golden_carrot"
+  ],
+  "instability": 1,
+  "research": {
+    "entry": "arcananaturae:sickle_of_abundance"
+  },
+  "result": {
+    "id": "arcananaturae:elemental_sickle"
+  }
+}

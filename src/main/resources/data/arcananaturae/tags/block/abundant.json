@@ -1,0 +1,23 @@
+{
+  "values": [
+    "minecraft:wheat",
+    "minecraft:carrots",
+    "minecraft:potatoes",
+    "minecraft:beetroots",
+    "minecraft:nether_wart",
+    "minecraft:sweet_berry_bush",
+    "minecraft:cocoa",
+    {
+      "id": "minecraft:torchflower_crop",
+      "required": false
+    },
+    {
+      "id": "minecraft:pitcher_crop",
+      "required": false
+    },
+    {
+      "id": "#c:crops",
+      "required": false
+    }
+  ]
+}

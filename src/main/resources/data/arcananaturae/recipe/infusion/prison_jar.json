@@ -1,0 +1,35 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 8
+    }
+  ],
+  "catalyst": "thaumaturge:jar_normal",
+  "components": [
+    "minecraft:gold_ingot",
+    "minecraft:ender_pearl",
+    "minecraft:lead",
+    "minecraft:ender_pearl"
+  ],
+  "instability": 2,
+  "research": {
+    "entry": "arcananaturae:prison_jar"
+  },
+  "result": {
+    "id": "arcananaturae:prison_jar"
+  }
+}

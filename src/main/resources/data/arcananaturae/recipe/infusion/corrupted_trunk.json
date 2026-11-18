@@ -1,0 +1,37 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:spiritus",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 6
+    }
+  ],
+  "catalyst": "minecraft:chest",
+  "components": [
+    "minecraft:gold_ingot",
+    "thaumaturge:brain",
+    "thaumaturge:essentia_crystal",
+    "minecraft:iron_ingot",
+    "minecraft:spider_eye",
+    "minecraft:ender_eye"
+  ],
+  "instability": 2,
+  "research": {
+    "entry": "arcananaturae:evil_trunk"
+  },
+  "result": {
+    "id": "arcananaturae:corrupted_trunk"
+  }
+}

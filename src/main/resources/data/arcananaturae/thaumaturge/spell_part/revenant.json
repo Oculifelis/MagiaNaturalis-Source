@@ -1,0 +1,14 @@
+{
+  "aspect": "thaumaturge:exanimis",
+  "behavior": {
+    "type": "arcananaturae:revenant",
+    "max_active": 6
+  },
+  "color": 3691046,
+  "complexity": 6,
+  "icon": "arcananaturae:textures/foci/revenant.png",
+  "research": {
+    "entry": "arcananaturae:revenant_focus"
+  },
+  "sound": "minecraft:entity.zombie.ambient"
+}

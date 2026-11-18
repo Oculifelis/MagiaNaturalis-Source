@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "W": "thaumaturge:slab_greatwood",
+    "N": "minecraft:gold_nugget"
+  },
+  "pattern": [
+    "WWW",
+    "NNN",
+    "WWW"
+  ],
+  "result": {
+    "id": "arcananaturae:gold_trimmed_greatwood",
+    "count": 3
+  }
+}

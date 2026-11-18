@@ -1,0 +1,41 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 15
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 15
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 10
+    }
+  ],
+  "key": {
+    "I": "#c:ingots/thaumium",
+    "B": "thaumaturge:brain",
+    "W": "arcananaturae:silverwood_panel",
+    "C": "minecraft:chest"
+  },
+  "pattern": [
+    "IBI",
+    "WCW",
+    "IWI"
+  ],
+  "research": {
+    "entry": "arcananaturae:arcane_chest",
+    "stage": 1
+  },
+  "result": {
+    "id": "arcananaturae:silverwood_arcane_chest",
+    "count": 1
+  },
+  "vis": 40
+}

@@ -1,0 +1,147 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "front": "arcananaturae:block/greatwood_arcane_chest_front",
+    "side": "arcananaturae:block/greatwood_arcane_chest_side",
+    "top": "arcananaturae:block/greatwood_arcane_chest_top",
+    "particle": "arcananaturae:block/greatwood_arcane_chest_side"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        10,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#front",
+          "uv": [
+            1,
+            6,
+            15,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#side",
+          "uv": [
+            1,
+            6,
+            15,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#side",
+          "uv": [
+            1,
+            6,
+            15,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#side",
+          "uv": [
+            1,
+            6,
+            15,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#top",
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ]
+        },
+        "down": {
+          "texture": "#top",
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        10,
+        11
+      ],
+      "to": [
+        15,
+        24,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#top",
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ]
+        },
+        "south": {
+          "texture": "#top",
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ]
+        },
+        "east": {
+          "texture": "#side",
+          "uv": [
+            11,
+            1,
+            15,
+            15
+          ]
+        },
+        "west": {
+          "texture": "#side",
+          "uv": [
+            1,
+            1,
+            5,
+            15
+          ]
+        },
+        "up": {
+          "texture": "#front",
+          "uv": [
+            1,
+            1,
+            15,
+            6
+          ]
+        },
+        "down": {
+          "texture": "#front",
+          "uv": [
+            1,
+            1,
+            15,
+            6
+          ]
+        }
+      }
+    }
+  ]
+}

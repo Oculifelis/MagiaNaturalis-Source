@@ -1,0 +1,22 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 32
+    }
+  ],
+  "catalyst": "thaumaturge:amber_block",
+  "components": [
+    "minecraft:emerald",
+    "thaumaturge:amber_brick",
+    "thaumaturge:amber_brick"
+  ],
+  "instability": 2,
+  "research": {
+    "entry": "arcananaturae:mutation_stone"
+  },
+  "result": {
+    "id": "arcananaturae:mutation_stone"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "category": "arcananaturae:arcananaturae",
+  "name": "research.arcananaturae.mutation_stone.title",
+  "parents": [
+    "arcananaturae:intro",
+    "thaumaturge:infusion"
+  ],
+  "column": 2,
+  "row": 2,
+  "icons": [
+    "arcananaturae:mutation_stone"
+  ],
+  "stages": [
+    {
+      "text": "research.arcananaturae.mutation_stone.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.arcananaturae.mutation_stone.stage_1",
+      "recipes": [
+        "arcananaturae:infusion/mutation_stone"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 2
+    }
+  ],
+  "complexity": 2
+}

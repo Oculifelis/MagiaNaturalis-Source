@@ -1,0 +1,101 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 20
+    }
+  ],
+  "key": {
+    "A": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:aer"
+        }
+      }
+    },
+    "I": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:ignis"
+        }
+      }
+    },
+    "T": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:aqua"
+        }
+      }
+    },
+    "W": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:terra"
+        }
+      }
+    },
+    "O": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:ordo"
+        }
+      }
+    },
+    "E": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:perditio"
+        }
+      }
+    },
+    "L": "minecraft:leather",
+    "B": "minecraft:book"
+  },
+  "pattern": [
+    "ALI",
+    "TBW",
+    "OLE"
+  ],
+  "research": {
+    "entry": "arcananaturae:research_log",
+    "stage": 1
+  },
+  "result": {
+    "id": "arcananaturae:research_log",
+    "count": 1
+  },
+  "vis": 30
+}

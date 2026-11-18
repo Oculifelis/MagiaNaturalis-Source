@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "W": "thaumaturge:slab_greatwood"
+  },
+  "pattern": [
+    "W",
+    "W"
+  ],
+  "result": {
+    "id": "arcananaturae:carved_greatwood",
+    "count": 1
+  }
+}
